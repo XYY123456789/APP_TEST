@@ -1,0 +1,11 @@
+web与app的区别：
+1.basepage直接拿过来用，新增了移动端的方法：滑屏 ，toast获取，H5切换
+2.元素定位方式不同，新增了移动端的定位方式
+    pagelocators全部换成移动端的定位
+3.屏幕小，页面布局，页面功能有差异，页面会变多，pagelocators当中页面功能换成移动端的
+    页面划分的时候：登录页面2个页面，考虑页面划分
+4.会话的启动方式：
+    web自动化：webdriver.Chrome（）
+    app自动化：1.提供平台信息与app信息：平台版本，平台名称，设备名称，app包名，app入口activity
+               2.与appium服务进行连接，并发送平台和app信息
+    toast信息:automation

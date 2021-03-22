@@ -1,0 +1,14 @@
+logger:
+  name: root
+  file: log.txt
+  logger_level: DEBUG
+  stream_level: DEBUG
+  file_level: DEBUG
+
+app:
+  platformName: 'Android'
+  platformVersion: '7.1.1'
+  deviceName: 'PB04D97A60048'
+  appPackage: 'com.android.settings'
+  appActivity: 'com.android.settings.Settings'
+  host: 'http://127.0.0.1:4723/wd/hub'
